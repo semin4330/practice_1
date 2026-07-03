@@ -24,7 +24,7 @@ reg_iris=LinearRegression()
 reg_iris.fit(train_x, train_y)
 print(reg_iris.coef_, reg_iris.intercept_)
 
-# 4번
+# 4번 이세민
 # 2번 시연 (임재백)
 # 김기민 branch
 print(x)
