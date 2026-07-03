@@ -12,6 +12,7 @@ train_x = train_x.reshape(-1, 1)
 test_x = test_x.reshape(-1, 1)
 test_y= test_y.reshape(-1, 1) # 1번 시연 (이세민)
 print(train_x) # 1번 시연 (어동준)
+print(test_x) # 1번 시연 (임재백)
 
 from sklearn.linear_model import LinearRegression
 reg_iris=LinearRegression()
