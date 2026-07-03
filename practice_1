@@ -1,0 +1,16 @@
+import seaborn as sns
+iris=sns.load_dataset('iris')
+x = iris['petal_length']
+y = iris['sepal_length']
+x=x.to_numpy()
+print(x)
+
+from sklearn.model_selection import train_test_split
+train_x, test_x, train_y, test_y = train_test_split(x, y, random_state=42589)
+train_x = train_x.reshape(-1, 1)
+test_x = test_x.reshape(-1, 1)
+
+from sklearn.linear_model import LinearRegression
+reg_iris=LinearRegression()
+reg_iris.fit(train_x, train_y)
+print(reg_iris.coef_, reg_iris.intercept_)
