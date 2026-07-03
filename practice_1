@@ -4,7 +4,7 @@ x = iris['petal_length']
 y = iris['sepal_length']
 x=x.to_numpy()
 print(x)
-print(y) # 1번 시연 (김기민)
+print(y) # 1번 시연 (김기민) + 2번 시연 (김기민)
 
 from sklearn.model_selection import train_test_split
 train_x, test_x, train_y, test_y = train_test_split(x, y, random_state=42589)
@@ -20,3 +20,7 @@ reg_iris.fit(train_x, train_y)
 print(reg_iris.coef_, reg_iris.intercept_)
 
 # 2번 시연 (임재백)
+# 김기민 branch
+print(x)
+# 어동준 branch
+# 2번 시연
