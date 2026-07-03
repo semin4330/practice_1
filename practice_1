@@ -11,7 +11,7 @@ train_x, test_x, train_y, test_y = train_test_split(x, y, random_state=42589)
 train_x = train_x.reshape(-1, 1)
 test_x = test_x.reshape(-1, 1)
 test_y= test_y.reshape(-1, 1) # 1번 시연 (이세민)
-print(train_x) # 1번 시연 (어동준)
+print(train_x) # 1번 시연 (어동준) + 2번 시연 (어동준)
 print(test_x) # 1번 시연 (임재백) 
 
 from sklearn.linear_model import LinearRegression
