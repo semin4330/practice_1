@@ -14,10 +14,12 @@ test_y= test_y.reshape(-1, 1) # 1번 시연 (이세민)
 print(train_x) # 1번 시연 (어동준)
 print(test_x) # 1번 시연 (임재백) + 2번 시연 (임재백)
 
+# 3번 임재백
 from sklearn.linear_model import LinearRegression
 reg_iris=LinearRegression()
 reg_iris.fit(train_x, train_y)
 print(reg_iris.coef_, reg_iris.intercept_)
+
 
 # 2번 시연 (임재백)
 # 김기민 branch
