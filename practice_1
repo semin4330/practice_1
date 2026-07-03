@@ -4,7 +4,11 @@ x = iris['petal_length']
 y = iris['sepal_length']
 x=x.to_numpy()
 print(x)
+<<<<<<< Updated upstream
 print(y) # 1번 시연 (김기민) + 2번 시연 (김기민)
+=======
+print(y) # 1번 시연 (김기민)
+>>>>>>> Stashed changes
 
 from sklearn.model_selection import train_test_split
 train_x, test_x, train_y, test_y = train_test_split(x, y, random_state=42589)
