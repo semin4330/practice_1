@@ -1,3 +1,4 @@
+# 1번 김기민
 # 1번
 import seaborn as sns
 iris=sns.load_dataset('iris')
@@ -6,6 +7,7 @@ y = iris['sepal_length']
 x=x.to_numpy()
 print(x)
 print(y) # 1번 시연 (김기민) + 2번 시연 (김기민)
+print(iris) # 2번 시연 2차
 
 # 2번
 from sklearn.model_selection import train_test_split
