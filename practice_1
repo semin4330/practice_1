@@ -1,4 +1,5 @@
 # 1번 김기민
+# 1번
 import seaborn as sns
 iris=sns.load_dataset('iris')
 x = iris['petal_length']
@@ -16,6 +17,7 @@ test_x = test_x.reshape(-1, 1)
 test_y= test_y.reshape(-1, 1) # 1번 시연 (이세민)
 print(train_x) # 1번 시연 (어동준)
 print(test_x) # 1번 시연 (임재백) + 2번 시연 (임재백)
+print(train_y) # 시연의 시연의 시연을 거쳐보자
 
 # 3번
 from sklearn.linear_model import LinearRegression
