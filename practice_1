@@ -18,3 +18,5 @@ from sklearn.linear_model import LinearRegression
 reg_iris=LinearRegression()
 reg_iris.fit(train_x, train_y)
 print(reg_iris.coef_, reg_iris.intercept_)
+
+# 2번 시연 (임재백)
